@@ -7,6 +7,7 @@
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="ja_JP" />
+    <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:title" content="柴垣 光希 | Mitsuki Shibagaki" />
     <meta property="og:description" content="Antimicrobial Peptides / NMR / Protein Science" />
     <meta property="og:url" content="https://mshibagaki.github.io/" />
@@ -17,6 +18,9 @@
     <meta name="twitter:image" content="https://mshibagaki.github.io/og.jpg" />
     <title>柴垣 光希 | Mitsuki Shibagaki</title>
     <link rel="canonical" href="https://mshibagaki.github.io/" />
+    <link rel="alternate" hreflang="ja" href="https://mshibagaki.github.io/" />
+    <link rel="alternate" hreflang="en" href="https://mshibagaki.github.io/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://mshibagaki.github.io/" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="assets/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,10 +32,17 @@
     <a class="skip-link" href="#main">本文へ移動</a>
     <header class="site-header">
       <a class="site-name" href="index.html">柴垣 光希 <span>Mitsuki Shibagaki</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav id="site-nav" class="site-nav" aria-label="メインナビゲーション">
-        <a href="#research">研究</a><a href="#publications">業績</a><a href="#profile">経歴</a><a href="#activities">活動</a><a href="#hobbies">趣味</a><a href="#links">リンク</a>
-      </nav>
+      <div class="header-end">
+        <nav id="site-nav" class="site-nav" aria-label="メインナビゲーション">
+          <a href="#research">研究</a><a href="#publications">業績</a><a href="#profile">経歴</a><a href="#activities">活動</a><a href="#hobbies">趣味</a><a href="#links">リンク</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="言語 / Language">
+          <span aria-current="true" lang="ja">JA</span>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <a href="en/index.html" hreflang="en" lang="en" aria-label="English version">EN</a>
+        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
     </header>
 
     <main id="main">
