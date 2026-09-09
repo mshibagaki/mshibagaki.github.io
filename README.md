@@ -13,6 +13,13 @@ Website: <https://mshibagaki.github.io/>
 - その他の活動
 - 趣味
 
+## 言語 / Languages
+
+- 日本語（既定）: `index.html`, `hobbies.html` — <https://mshibagaki.github.io/>
+- English: `en/index.html`, `en/hobbies.html` — <https://mshibagaki.github.io/en/>
+
+ヘッダー右上の `JA / EN` で切り替えます。両言語は独立したHTMLなので、内容を更新するときは日本語版と `en/` の対応するページを両方直してください。互いのページは `<link rel="alternate" hreflang="...">` で関連付けています。
+
 ## Local preview
 
 ```powershell
